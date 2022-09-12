@@ -1,0 +1,6 @@
+.main-illustration {
+  height: 200px;
+  margin: 40px -16px 0;
+  box-sizing: border-box;
+  object-fit: cover;
+}

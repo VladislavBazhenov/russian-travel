@@ -1,0 +1,9 @@
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  height: fit-content;
+}
+
+.header__lang-link:nth-child(1) {
+  border-bottom: 1.2px solid #fff;
+}
