@@ -1,5 +1,21 @@
 .lead {
-  margin: 48px auto 0;
-  max-height: 406px;
-  max-width: 320px;
+  margin: 0 auto 64px;
+}
+
+@media screen and (min-width:768px) {
+  .lead {
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .lead {
+    margin: 0 48px 92px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .lead {
+    margin: 0 100px 114px;
+  }
 }

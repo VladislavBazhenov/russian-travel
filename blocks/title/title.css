@@ -1,5 +1,6 @@
 .title {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   color: #fff;
+  margin: 0;
 }

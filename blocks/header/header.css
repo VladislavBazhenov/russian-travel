@@ -1,6 +1,25 @@
 .header {
+  min-width: 288px;
   display: flex;
-  margin: 16px auto 0;
-  width: 288px;
-  height: 42px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 16px 16px 48px;
+}
+
+@media screen and (min-width:768px) {
+  .header {
+    margin: 28px 24px 48px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .header {
+    margin: 28px 48px 48px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .header {
+    margin: 28px 48px 56px;
+  }
 }
