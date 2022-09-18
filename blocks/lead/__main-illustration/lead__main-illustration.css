@@ -3,4 +3,5 @@
   margin: 0 auto 8px;
   box-sizing: border-box;
   object-fit: cover;
+  display: block;
 }
